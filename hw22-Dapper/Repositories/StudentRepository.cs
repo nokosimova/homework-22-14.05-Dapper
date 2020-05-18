@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace hw22_Dapper.Models
+namespace hw22_Dapper.Repositories
 {
-    class CourseList
+    class StudentRepository
     {
     }
 }
