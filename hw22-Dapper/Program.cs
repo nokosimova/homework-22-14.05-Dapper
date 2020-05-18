@@ -27,16 +27,16 @@ namespace hw22_Dapper
                 switch (command)
                 {
                     case 1:
-                        //();
+                        Create();
                         break;
                     case 2:
                         Read();
                         break;
                     case 3:
-                        //         UpdateData();
+                        Update();
                         break;
                     case 4:
-                        //       DeleteData();
+                        Delete();
                         break;
                     case 5:
                         act = false;
@@ -108,7 +108,7 @@ namespace hw22_Dapper
                     Console.ReadKey();
             }
             }
-            public static void UpdateData()
+            public static void Update()
             {
                 try
                 {
@@ -152,7 +152,7 @@ namespace hw22_Dapper
                     Console.ReadKey();
                 }
             }
-            public static void DeleteData()
+            public static void Delete()
             {
                 try
                 {
